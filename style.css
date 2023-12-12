@@ -1,0 +1,65 @@
+/* boilerplate */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*,::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+header,
+footer,
+.part-1,
+.part-2,
+.part-3,
+.part-4,
+footer {
+  padding: 0 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Header & Part 1 */
+header,
+footer,
+.part-1 {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+
+}
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  margin-right: auto;
+  font-weight: bolder;
+  
+}
+
+.nav a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.p1-content {
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+}
