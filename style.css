@@ -65,13 +65,16 @@ header {
 .part-1 {
   padding-top: 120px;
   padding-bottom: 120px;
+  flex-flow: wrap;
   gap: 40px;
+  justify-content: space-evenly;
 }
 
 .p1-content {
   display: flex;
   flex-flow: column;
   gap: 10px;
+  flex: 400px;
 }
 .p1-title,
 .logo,
@@ -102,10 +105,10 @@ header {
 
 .part-2 {
   flex-flow: column;
-  align-items: center;
 }
 
 .p2-title {
+  align-self: center;
   padding: 75px;
   font-weight: bold; 
   font-size: 32px;
@@ -113,9 +116,11 @@ header {
 
 .p2-cards {
   display: flex;
-  flex-flow: row;
-  gap: 100px;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  /* justify-content: space-around; */
   padding-bottom: 120px;
+  gap: 20px;
 }
 
 .p2-card {
@@ -176,7 +181,7 @@ header {
 .p4-card {
   background-color: #3882f6;
   color: white;
-  padding: 50px 120px;
+  padding: 50px 10%;
   border-radius: 10px;
   display: flex;
   align-items: center;
